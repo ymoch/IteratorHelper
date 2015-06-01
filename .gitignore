@@ -1,0 +1,5 @@
+# Products.
+/bin/*
+
+# User-specific files.
+*.user
