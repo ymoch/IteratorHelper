@@ -15,11 +15,14 @@ CONFIG(debug, debug|release) {
 
 INCLUDEPATH += $$PWD/include
 
-SOURCES += test/main.cpp
+SOURCES += test/main.cpp \
+    test/array_list_test.cpp
 
 HEADERS += \
     include/iterator_helper/array/array_iterator.hpp \
     include/iterator_helper/array/array_list.hpp \
     include/iterator_helper/array/const_array_iterator.hpp \
-    include/iterator_helper/array/const_array_list.hpp
+    include/iterator_helper/array/const_array_list.hpp \
+    test/tests.h \
+    test/tester.hpp
 
