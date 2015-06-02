@@ -6,6 +6,7 @@
  * @date    2015-06-02  ymoch
  */
 #include <algorithm>
+#include <cstring>
 
 #include "tests.h"
 #include "tester.hpp"
